@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Hello from './components/hello';
+import Semaforo from './components/semaforo';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         </p>
         <Hello/>
         <Hello/>
-        <Hello/>
+        <Semaforo/>
         <a
           className="App-link"
           href="https://reactjs.org"
